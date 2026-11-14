@@ -1,11 +1,11 @@
-import loader
+from DataDragon import loader, filters
 import requests
 
 def simplify(name):
     return name.lower().replace(" ", "").replace(",", "").replace("'", "").replace(".", "").replace("&", "").replace(":", "")
 
 def lookUpChampion(championName):
-    url = f"https://ddragon.leagueoflegends.com/cdn/{loader.get_version_string()}/data/en_US/champion.json"
+    url = f"https://ddragon.leagueoflegends.com/cdn/{loader.getVersionString()}/data/en_US/champion.json"
     response = requests.get(url)
     name = simplify(championName)
     catalog = response.json()
@@ -15,16 +15,17 @@ def lookUpChampion(championName):
 
     
 def lookUpItem(itemName):
-    url = f"https://ddragon.leagueoflegends.com/cdn/{loader.get_version_string()}/data/en_US/item.json"
+    url = f"https://ddragon.leagueoflegends.com/cdn/{loader.getVersionString()}/data/en_US/item.json"
     response = requests.get(url)
     name = simplify(itemName)
     catalog = response.json()
     for item_id, item in catalog["data"].items():
         if simplify(item["name"]) == name:
-            return item_id
+            if filters.isBuildable(item_id, catalog):
+                return item_id
 
 def lookUpRunes(runesName):
-    url = f"https://ddragon.leagueoflegends.com/cdn/{loader.get_version_string()}/data/en_US/runesReforged.json"
+    url = f"https://ddragon.leagueoflegends.com/cdn/{loader.getVersionString()}/data/en_US/runesReforged.json"
     response = requests.get(url)
     name = simplify(runesName)
     catalog = response.json()
