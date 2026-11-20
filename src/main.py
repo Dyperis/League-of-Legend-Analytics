@@ -1,11 +1,10 @@
 import json
 import requests
 from DataDragon import loader
+from collector import riotClient
 
-catalog = requests.get(f"https://ddragon.leagueoflegends.com/cdn/{loader.getVersionString()}/data/en_US/item.json").json()
-print(len(catalog["data"]))
-
-for item_id, item in catalog["data"].items():
-    if "requiredAlly" in item:
-        print(item_id, item["name"])
-
+result =riotClient.riotGet("https://na1.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5", params=None)
+print(type(result))
+print(result.keys())
+print(len(result["entries"]))
+print(result["entries"][0])
