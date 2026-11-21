@@ -7,7 +7,7 @@ repoRoot = os.path.dirname(os.path.dirname(moduleDir))
 MATCH_DIR = os.path.join(repoRoot, "data", "raw", "matches")
 MATCH_IDS_PATH = os.path.join(os.path.dirname(MATCH_DIR), "matchIds.json")
 
-def countItems(files):
+def countItemWinsStats(files):
     counts = {}
     for i in range(len(files)):
         try:
@@ -39,7 +39,7 @@ def countItems(files):
 #Test
 if __name__ == "__main__":
     files = sorted(Path(MATCH_DIR).glob("*.json"))
-    counts = countItems(files[:100])
+    counts = countItemWinsStats(files[:100])
     print(len(counts))
     keys = list(counts.keys())
     for i in range(5):
