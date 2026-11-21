@@ -30,12 +30,12 @@ Flash timers and other summoner spell trackers are outside the project’s plann
 
 - **Python:** Main programming language.
 - **Riot Games Data Dragon:** JSON files providing champion, item, and rune information.
-- **Riot Games API:** Retrieve match histories and individual match statistics for analysis.
-- **RiotWatcher:** Python wrapper for Riot’s API, with built-in rate-limit handling.
-- **lcu-driver:** Communicate with the local League Client API to read champion selection information.
-- **SQLite:** Store collected match data and calculated statistics.
-- **pandas and NumPy:** Process match data, calculate win rates, and support item and rune recommendations.
-- **CustomTkinter:** Build the desktop interface for entering information and displaying recommendations.
+- **Riot Games API:** Retrieve match histories and individual match statistics for analysis. 
+- **RiotWatcher:** Python wrapper for Riot’s API, with built-in rate-limit handling. (Version 2.0)
+- **lcu-driver:** Communicate with the local League Client API to read champion selection information. (Version 2.0)
+- **SQLite:** Store collected match data and calculated statistics. (Version 2.0)
+- **pandas and NumPy:** Process match data, calculate win rates, and support item and rune recommendations. (Version 2.0)
+- **CustomTkinter:** Build the desktop interface for entering information and displaying recommendations. 
 - **Git and GitHub:** Track development progress and host the project.
 
 ## Design Documents
@@ -47,4 +47,4 @@ The `docs/` folder will contain:
 
 ## Development Status
 
-This project is currently in the planning stage. Implementation will proceed in manageable stages: data retrieval, data processing, recommendation logic, and interface development. Each completed stage will be recorded through incremental Git commits.
+This project is currently in the first production version. Implementation will proceed in manageable stages: data retrieval, data processing, recommendation logic, and interface development. Each completed stage will be recorded through incremental Git commits.
