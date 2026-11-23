@@ -7,6 +7,7 @@ import requests
 moduleDir = os.path.dirname(os.path.abspath(__file__))
 repoRoot = os.path.dirname(os.path.dirname(moduleDir))
 MATCH_DIR = os.path.join(repoRoot, "data", "raw", "matches")
+BUILD_PATH = os.path.join(repoRoot, "data", "builds.json")
 
 def countItemWinsStats(files):
     counts = {}
@@ -65,6 +66,16 @@ def pickBuilds(counts, minGames, catalog): #Find the best builds for each champi
             finalBuilds[champLanes].append(top6[j][1])
     return finalBuilds
 
+def toJsonFormat(finalBuilds, patch):
+    buildsFile = {}
+    keyList = list(finalBuilds.keys())
+    for i in range(len(keyList)):
+        champName = keyList[i][0]
+        lane = keyList[i][1]
+        champDict = buildsFile.setdefault(champName, {})
+        champDict[lane] = {"items": finalBuilds[keyList[i]]}
+    return {"patch": patch, "builds": buildsFile}
+
     
 #Test
 if __name__ == "__main__":
@@ -76,3 +87,8 @@ if __name__ == "__main__":
     builds = pickBuilds(counts, 30, catalog)
     print(len(builds))
     print(builds[("Riven", "TOP")])
+    output = toJsonFormat(builds, loader.getVersionString())
+    BUILD_PATH = os.path.join(repoRoot, "data", "builds.json")
+    with open(BUILD_PATH, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2)
+
