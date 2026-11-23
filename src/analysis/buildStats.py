@@ -5,7 +5,6 @@ import json
 moduleDir = os.path.dirname(os.path.abspath(__file__))
 repoRoot = os.path.dirname(os.path.dirname(moduleDir))
 MATCH_DIR = os.path.join(repoRoot, "data", "raw", "matches")
-MATCH_IDS_PATH = os.path.join(os.path.dirname(MATCH_DIR), "matchIds.json")
 
 def countItemWinsStats(files):
     counts = {}
@@ -36,11 +35,36 @@ def countItemWinsStats(files):
             
     return counts
 
+
+def pickBuilds(counts, minGames): #Find the best builds for each champions relative to lane. Low pickrate build get filtered
+    builds = {}
+    keyList = list(counts.keys())
+    for i in range(len(keyList)):
+        key = keyList[i]
+        if counts[key]["games"] < minGames:
+            continue
+        winrate = counts[key]["wins"] / counts[key]["games"]
+        champLane = (key[0],key[1])
+        if champLane not in builds:
+            builds[champLane] = []
+        builds[champLane].append((winrate, key[2]))
+
+    finalBuilds = {}
+    buildKey = list(builds.keys())
+    for i in range(len(buildKey)):
+        champLanes = buildKey[i]
+        builds[champLanes].sort(reverse=True)
+        top6 = builds[champLanes][:6]
+        finalBuilds[champLanes] = []
+        for j in range(len(top6)):
+            finalBuilds[champLanes].append(top6[j][1])
+    return finalBuilds
+
+    
 #Test
 if __name__ == "__main__":
     files = sorted(Path(MATCH_DIR).glob("*.json"))
-    counts = countItemWinsStats(files[:100])
-    print(len(counts))
-    keys = list(counts.keys())
-    for i in range(5):
-        print(keys[i], counts[keys[i]])
+    counts = countItemWinsStats(files)
+    builds = pickBuilds(counts, 30)
+    print(len(builds))
+    print(builds[("Riven", "TOP")])

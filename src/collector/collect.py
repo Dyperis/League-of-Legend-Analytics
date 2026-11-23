@@ -9,7 +9,7 @@ END_TIME   = int(datetime(2026, 11, 18, tzinfo=timezone.utc).timestamp())  # pat
 PLATFORM_URL = "https://na1.api.riotgames.com"
 REGION_URL = "https://americas.api.riotgames.com"
 
-def getHighEloPuuids():
+def getHighEloPuuids(): # Get the elo of top players in the region
     resultlist = []
     challenger = riotClient.riotGet(f"{PLATFORM_URL}/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5")
     if challenger is not None:
@@ -27,7 +27,7 @@ def getHighEloPuuids():
             resultlist.append(entry["puuid"])
     return resultlist
 
-def getMatchID(puuid, startTime, endTime):
+def getMatchID(puuid, startTime, endTime): #Get match ID from top players
     params = {"startTime": startTime, "endTime": endTime, "queue": 420, "count": 100}
     url = f"{REGION_URL}/lol/match/v5/matches/by-puuid/{puuid}/ids"
     matchID = riotClient.riotGet(url, params=params)
@@ -41,7 +41,7 @@ repoRoot = os.path.dirname(os.path.dirname(moduleDir))
 MATCH_DIR = os.path.join(repoRoot, "data", "raw", "matches")
 MATCH_IDS_PATH = os.path.join(os.path.dirname(MATCH_DIR), "matchIds.json")
 
-def saveMatch(matchId):
+def saveMatch(matchId): #Save each match as JSON file to be used
     path = os.path.join(MATCH_DIR, f"{matchId}.json")
     if os.path.isfile(path):
         return False
