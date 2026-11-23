@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 import json
+from DataDragon import filters, loader
+import requests
 
 moduleDir = os.path.dirname(os.path.abspath(__file__))
 repoRoot = os.path.dirname(os.path.dirname(moduleDir))
@@ -36,13 +38,16 @@ def countItemWinsStats(files):
     return counts
 
 
-def pickBuilds(counts, minGames): #Find the best builds for each champions relative to lane. Low pickrate build get filtered
+def pickBuilds(counts, minGames, catalog): #Find the best builds for each champions relative to lane. Low pickrate build get filtered
     builds = {}
     keyList = list(counts.keys())
     for i in range(len(keyList)):
         key = keyList[i]
         if counts[key]["games"] < minGames:
             continue
+        if filters.isCompleteItem(key[2], catalog) == False:
+            continue
+
         winrate = counts[key]["wins"] / counts[key]["games"]
         champLane = (key[0],key[1])
         if champLane not in builds:
@@ -64,7 +69,10 @@ def pickBuilds(counts, minGames): #Find the best builds for each champions relat
 #Test
 if __name__ == "__main__":
     files = sorted(Path(MATCH_DIR).glob("*.json"))
+    url = f"https://ddragon.leagueoflegends.com/cdn/{loader.getVersionString()}/data/en_US/item.json"
+    response = requests.get(url)
+    catalog = response.json()
     counts = countItemWinsStats(files)
-    builds = pickBuilds(counts, 30)
+    builds = pickBuilds(counts, 30, catalog)
     print(len(builds))
     print(builds[("Riven", "TOP")])
