@@ -1,0 +1,3003 @@
+{
+  "patch": "16.23.1",
+  "runes": {
+    "Riven": {
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Viego": {
+      "JUNGLE": {
+        "runes": [
+          9923,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          9923,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          9923,
+          8000
+        ]
+      }
+    },
+    "Anivia": {
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8200
+        ]
+      }
+    },
+    "Jinx": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8200
+        ]
+      }
+    },
+    "Renata": {
+      "UTILITY": {
+        "runes": [
+          8214,
+          8400
+        ]
+      }
+    },
+    "Tryndamere": {
+      "TOP": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          9923,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8008,
+          8300
+        ]
+      }
+    },
+    "Sejuani": {
+      "JUNGLE": {
+        "runes": [
+          8439,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8439,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8021,
+          8200
+        ]
+      }
+    },
+    "Akali": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8400
+        ]
+      }
+    },
+    "Varus": {
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8008,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8400
+        ]
+      }
+    },
+    "Nami": {
+      "UTILITY": {
+        "runes": [
+          8214,
+          8000
+        ]
+      }
+    },
+    "Gangplank": {
+      "TOP": {
+        "runes": [
+          8021,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "LeeSin": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8010,
+          8400
+        ]
+      }
+    },
+    "Hwei": {
+      "MIDDLE": {
+        "runes": [
+          8369,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8369,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Mordekaiser": {
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      }
+    },
+    "Tristana": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8008,
+          8400
+        ]
+      }
+    },
+    "Senna": {
+      "UTILITY": {
+        "runes": [
+          8992,
+          8400
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      }
+    },
+    "Aatrox": {
+      "TOP": {
+        "runes": [
+          8230,
+          8100
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Diana": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8400
+        ]
+      }
+    },
+    "Lux": {
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8100
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8214,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8369,
+          8200
+        ]
+      }
+    },
+    "Sivir": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8200
+        ]
+      }
+    },
+    "Yone": {
+      "TOP": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8400
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8008,
+          8300
+        ]
+      }
+    },
+    "Vi": {
+      "JUNGLE": {
+        "runes": [
+          9923,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          9923,
+          8000
+        ]
+      }
+    },
+    "Swain": {
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8214,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8010,
+          8400
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8300
+        ]
+      }
+    },
+    "Zyra": {
+      "UTILITY": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Jayce": {
+      "TOP": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8100
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8369,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8230,
+          8300
+        ]
+      }
+    },
+    "MasterYi": {
+      "JUNGLE": {
+        "runes": [
+          9923,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          9923,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          9923,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          9923,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          9923,
+          8300
+        ]
+      }
+    },
+    "Veigar": {
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8369,
+          8200
+        ]
+      }
+    },
+    "Karma": {
+      "UTILITY": {
+        "runes": [
+          8369,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8214,
+          8400
+        ]
+      }
+    },
+    "KSante": {
+      "TOP": {
+        "runes": [
+          8439,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8439,
+          8300
+        ]
+      }
+    },
+    "Kindred": {
+      "JUNGLE": {
+        "runes": [
+          8008,
+          8100
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8300
+        ]
+      }
+    },
+    "Vladimir": {
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8010,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "Xayah": {
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8100
+        ]
+      }
+    },
+    "Sona": {
+      "UTILITY": {
+        "runes": [
+          8369,
+          8200
+        ]
+      }
+    },
+    "Ambessa": {
+      "TOP": {
+        "runes": [
+          8230,
+          8100
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8369,
+          8100
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8400
+        ]
+      }
+    },
+    "Ahri": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8200
+        ]
+      }
+    },
+    "Jhin": {
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8100
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8992,
+          8000
+        ]
+      }
+    },
+    "Velkoz": {
+      "UTILITY": {
+        "runes": [
+          8128,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8128,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Renekton": {
+      "TOP": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8400
+        ]
+      }
+    },
+    "Olaf": {
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Zed": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8369,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8369,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8369,
+          8000
+        ]
+      }
+    },
+    "Kaisa": {
+      "BOTTOM": {
+        "runes": [
+          9923,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8369,
+          8000
+        ]
+      }
+    },
+    "Elise": {
+      "UTILITY": {
+        "runes": [
+          8128,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8000
+        ]
+      }
+    },
+    "FiddleSticks": {
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8400
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8300
+        ]
+      }
+    },
+    "Sion": {
+      "MIDDLE": {
+        "runes": [
+          8437,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8351,
+          8400
+        ]
+      }
+    },
+    "Aphelios": {
+      "BOTTOM": {
+        "runes": [
+          8021,
+          8200
+        ]
+      }
+    },
+    "Rell": {
+      "UTILITY": {
+        "runes": [
+          8360,
+          8400
+        ]
+      }
+    },
+    "Warwick": {
+      "JUNGLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8008,
+          8400
+        ]
+      }
+    },
+    "Zeri": {
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8008,
+          8300
+        ]
+      }
+    },
+    "Seraphine": {
+      "UTILITY": {
+        "runes": [
+          8214,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8214,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8214,
+          8400
+        ]
+      }
+    },
+    "Rammus": {
+      "JUNGLE": {
+        "runes": [
+          8439,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8439,
+          8200
+        ]
+      }
+    },
+    "Ekko": {
+      "MIDDLE": {
+        "runes": [
+          9923,
+          8200
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          9923,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          9923,
+          8000
+        ]
+      }
+    },
+    "Chogath": {
+      "JUNGLE": {
+        "runes": [
+          9923,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8100
+        ]
+      }
+    },
+    "Ashe": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8100
+        ]
+      }
+    },
+    "Naafiri": {
+      "TOP": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          9923,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      }
+    },
+    "JarvanIV": {
+      "JUNGLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8214,
+          8300
+        ]
+      }
+    },
+    "Thresh": {
+      "UTILITY": {
+        "runes": [
+          8439,
+          8200
+        ]
+      }
+    },
+    "Camille": {
+      "TOP": {
+        "runes": [
+          8437,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          9923,
+          8400
+        ]
+      }
+    },
+    "Graves": {
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "Taliyah": {
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8214,
+          8000
+        ]
+      }
+    },
+    "Caitlyn": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8021,
+          8200
+        ]
+      }
+    },
+    "DrMundo": {
+      "TOP": {
+        "runes": [
+          9923,
+          8400
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8437,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8437,
+          8300
+        ]
+      }
+    },
+    "Shaco": {
+      "JUNGLE": {
+        "runes": [
+          8369,
+          8100
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Kassadin": {
+      "TOP": {
+        "runes": [
+          8369,
+          8100
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8100
+        ]
+      }
+    },
+    "Khazix": {
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8300
+        ]
+      }
+    },
+    "Shen": {
+      "TOP": {
+        "runes": [
+          8230,
+          8400
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8360,
+          8100
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8465,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8437,
+          8300
+        ]
+      }
+    },
+    "Syndra": {
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8369,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Ezreal": {
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8021,
+          8300
+        ]
+      }
+    },
+    "Singed": {
+      "TOP": {
+        "runes": [
+          8360,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8300
+        ]
+      }
+    },
+    "Hecarim": {
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "Gragas": {
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "Fizz": {
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8200
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8200
+        ]
+      }
+    },
+    "Nautilus": {
+      "UTILITY": {
+        "runes": [
+          8112,
+          8400
+        ]
+      }
+    },
+    "Shyvana": {
+      "JUNGLE": {
+        "runes": [
+          8005,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8400
+        ]
+      }
+    },
+    "Viktor": {
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8400
+        ]
+      }
+    },
+    "Corki": {
+      "BOTTOM": {
+        "runes": [
+          9923,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "Belveth": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Pantheon": {
+      "UTILITY": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8400
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8200
+        ]
+      }
+    },
+    "Yorick": {
+      "TOP": {
+        "runes": [
+          8229,
+          8300
+        ]
+      }
+    },
+    "Darius": {
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "MissFortune": {
+      "BOTTOM": {
+        "runes": [
+          8229,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8100
+        ]
+      }
+    },
+    "Braum": {
+      "UTILITY": {
+        "runes": [
+          8465,
+          8000
+        ]
+      }
+    },
+    "Blitzcrank": {
+      "UTILITY": {
+        "runes": [
+          8351,
+          8100
+        ]
+      }
+    },
+    "Fiora": {
+      "TOP": {
+        "runes": [
+          8005,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          9923,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          9923,
+          8200
+        ]
+      }
+    },
+    "Irelia": {
+      "TOP": {
+        "runes": [
+          8008,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Udyr": {
+      "JUNGLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Maokai": {
+      "UTILITY": {
+        "runes": [
+          8439,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8437,
+          8200
+        ]
+      }
+    },
+    "Zac": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8439,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8439,
+          8000
+        ]
+      }
+    },
+    "Mel": {
+      "MIDDLE": {
+        "runes": [
+          8369,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Yunara": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8200
+        ]
+      }
+    },
+    "Volibear": {
+      "TOP": {
+        "runes": [
+          8437,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      }
+    },
+    "Pyke": {
+      "UTILITY": {
+        "runes": [
+          9923,
+          8000
+        ]
+      }
+    },
+    "Sylas": {
+      "TOP": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8369,
+          8100
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8000
+        ]
+      }
+    },
+    "Karthus": {
+      "JUNGLE": {
+        "runes": [
+          8992,
+          8100
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8000
+        ]
+      }
+    },
+    "Qiyana": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8400
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8112,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8010,
+          8100
+        ]
+      }
+    },
+    "Zilean": {
+      "UTILITY": {
+        "runes": [
+          8214,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8214,
+          8300
+        ]
+      }
+    },
+    "Lucian": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8400
+        ]
+      }
+    },
+    "Alistar": {
+      "UTILITY": {
+        "runes": [
+          8439,
+          8100
+        ]
+      }
+    },
+    "Rakan": {
+      "UTILITY": {
+        "runes": [
+          8112,
+          8300
+        ]
+      }
+    },
+    "Lulu": {
+      "UTILITY": {
+        "runes": [
+          8465,
+          8200
+        ]
+      }
+    },
+    "Morgana": {
+      "UTILITY": {
+        "runes": [
+          8465,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8300
+        ]
+      }
+    },
+    "Ornn": {
+      "TOP": {
+        "runes": [
+          8230,
+          8400
+        ]
+      }
+    },
+    "MonkeyKing": {
+      "JUNGLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8100
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      }
+    },
+    "Lissandra": {
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "TahmKench": {
+      "UTILITY": {
+        "runes": [
+          8437,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8437,
+          8000
+        ]
+      }
+    },
+    "Lillia": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Milio": {
+      "UTILITY": {
+        "runes": [
+          8214,
+          8400
+        ]
+      }
+    },
+    "Gwen": {
+      "TOP": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8369,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8300
+        ]
+      }
+    },
+    "Talon": {
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8400
+        ]
+      }
+    },
+    "Zoe": {
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8128,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8214,
+          8000
+        ]
+      }
+    },
+    "Twitch": {
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8100
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8005,
+          8200
+        ]
+      }
+    },
+    "Nocturne": {
+      "JUNGLE": {
+        "runes": [
+          9923,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8010,
+          8400
+        ]
+      }
+    },
+    "AurelionSol": {
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8400
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8000
+        ]
+      }
+    },
+    "Yuumi": {
+      "UTILITY": {
+        "runes": [
+          8214,
+          8400
+        ]
+      }
+    },
+    "Vayne": {
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8021,
+          8400
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8021,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8008,
+          8400
+        ]
+      }
+    },
+    "Malphite": {
+      "TOP": {
+        "runes": [
+          8437,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8437,
+          8200
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      }
+    },
+    "Smolder": {
+      "BOTTOM": {
+        "runes": [
+          8021,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8300
+        ]
+      }
+    },
+    "Yasuo": {
+      "MIDDLE": {
+        "runes": [
+          8437,
+          8100
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8021,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8000
+        ]
+      }
+    },
+    "Sett": {
+      "TOP": {
+        "runes": [
+          8021,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      }
+    },
+    "Katarina": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8000
+        ]
+      }
+    },
+    "KogMaw": {
+      "BOTTOM": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8230,
+          8300
+        ]
+      }
+    },
+    "Janna": {
+      "UTILITY": {
+        "runes": [
+          8214,
+          8400
+        ]
+      }
+    },
+    "Garen": {
+      "TOP": {
+        "runes": [
+          8230,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      }
+    },
+    "Zaahen": {
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          9923,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          9923,
+          8200
+        ]
+      }
+    },
+    "TwistedFate": {
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8351,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8300
+        ]
+      }
+    },
+    "Leona": {
+      "UTILITY": {
+        "runes": [
+          8439,
+          8100
+        ]
+      }
+    },
+    "Jax": {
+      "JUNGLE": {
+        "runes": [
+          8008,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          9923,
+          8400
+        ]
+      }
+    },
+    "Gnar": {
+      "TOP": {
+        "runes": [
+          8008,
+          8400
+        ]
+      }
+    },
+    "Nunu": {
+      "JUNGLE": {
+        "runes": [
+          8439,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8300
+        ]
+      }
+    },
+    "Malzahar": {
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8300
+        ]
+      }
+    },
+    "Kled": {
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8400
+        ]
+      }
+    },
+    "Nasus": {
+      "TOP": {
+        "runes": [
+          8021,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8400
+        ]
+      }
+    },
+    "Cassiopeia": {
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8000
+        ]
+      }
+    },
+    "Kalista": {
+      "BOTTOM": {
+        "runes": [
+          8008,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8008,
+          8100
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8008,
+          8400
+        ]
+      }
+    },
+    "Kayn": {
+      "JUNGLE": {
+        "runes": [
+          8369,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8230,
+          8100
+        ]
+      }
+    },
+    "Akshan": {
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8400
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8200
+        ]
+      }
+    },
+    "Galio": {
+      "UTILITY": {
+        "runes": [
+          8439,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8439,
+          8200
+        ]
+      }
+    },
+    "Leblanc": {
+      "UTILITY": {
+        "runes": [
+          8128,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8200
+        ]
+      }
+    },
+    "Skarner": {
+      "JUNGLE": {
+        "runes": [
+          8437,
+          8300
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8300
+        ]
+      }
+    },
+    "Aurora": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8000
+        ]
+      }
+    },
+    "Rengar": {
+      "JUNGLE": {
+        "runes": [
+          8021,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8021,
+          8100
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8400
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8229,
+          8100
+        ]
+      }
+    },
+    "Bard": {
+      "UTILITY": {
+        "runes": [
+          8112,
+          8300
+        ]
+      }
+    },
+    "Azir": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8200
+        ]
+      }
+    },
+    "Ziggs": {
+      "BOTTOM": {
+        "runes": [
+          8369,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Locke": {
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8112,
+          8000
+        ]
+      }
+    },
+    "XinZhao": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Samira": {
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Kennen": {
+      "TOP": {
+        "runes": [
+          8112,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8400
+        ]
+      }
+    },
+    "Xerath": {
+      "MIDDLE": {
+        "runes": [
+          8229,
+          8300
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8369,
+          8200
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8229,
+          8000
+        ]
+      }
+    },
+    "Teemo": {
+      "TOP": {
+        "runes": [
+          8128,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8128,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8000
+        ]
+      }
+    },
+    "Orianna": {
+      "MIDDLE": {
+        "runes": [
+          8214,
+          8300
+        ]
+      }
+    },
+    "Brand": {
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8992,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8992,
+          8000
+        ]
+      }
+    },
+    "Amumu": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8100
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8439,
+          8100
+        ]
+      }
+    },
+    "Poppy": {
+      "UTILITY": {
+        "runes": [
+          8360,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8300
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8200
+        ]
+      }
+    },
+    "Briar": {
+      "JUNGLE": {
+        "runes": [
+          8005,
+          8400
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8400
+        ]
+      }
+    },
+    "Evelynn": {
+      "JUNGLE": {
+        "runes": [
+          8112,
+          8300
+        ]
+      }
+    },
+    "Quinn": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8112,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8000
+        ]
+      }
+    },
+    "Rumble": {
+      "TOP": {
+        "runes": [
+          8229,
+          8400
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8992,
+          8400
+        ]
+      }
+    },
+    "Annie": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8400
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8200
+        ]
+      }
+    },
+    "Nilah": {
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8200
+        ]
+      }
+    },
+    "Vex": {
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8112,
+          8200
+        ]
+      }
+    },
+    "RekSai": {
+      "JUNGLE": {
+        "runes": [
+          8010,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8437,
+          8000
+        ]
+      }
+    },
+    "Draven": {
+      "BOTTOM": {
+        "runes": [
+          8005,
+          8100
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8008,
+          8200
+        ]
+      }
+    },
+    "Nidalee": {
+      "JUNGLE": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8214,
+          8100
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8400
+        ]
+      }
+    },
+    "Soraka": {
+      "UTILITY": {
+        "runes": [
+          8465,
+          8300
+        ]
+      }
+    },
+    "Urgot": {
+      "TOP": {
+        "runes": [
+          8230,
+          8000
+        ]
+      }
+    },
+    "Trundle": {
+      "TOP": {
+        "runes": [
+          8008,
+          8200
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8005,
+          8300
+        ]
+      }
+    },
+    "Ryze": {
+      "MIDDLE": {
+        "runes": [
+          8230,
+          8000
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8230,
+          8300
+        ]
+      }
+    },
+    "Neeko": {
+      "UTILITY": {
+        "runes": [
+          8112,
+          8200
+        ]
+      },
+      "JUNGLE": {
+        "runes": [
+          8128,
+          8300
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8112,
+          8200
+        ]
+      }
+    },
+    "Kayle": {
+      "TOP": {
+        "runes": [
+          8005,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8005,
+          8200
+        ]
+      }
+    },
+    "Illaoi": {
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      }
+    },
+    "Ivern": {
+      "JUNGLE": {
+        "runes": [
+          8351,
+          8400
+        ]
+      },
+      "UTILITY": {
+        "runes": [
+          8214,
+          8400
+        ]
+      },
+      "TOP": {
+        "runes": [
+          8005,
+          8200
+        ]
+      }
+    },
+    "Taric": {
+      "UTILITY": {
+        "runes": [
+          8351,
+          8400
+        ]
+      }
+    },
+    "Heimerdinger": {
+      "TOP": {
+        "runes": [
+          8010,
+          8300
+        ]
+      },
+      "BOTTOM": {
+        "runes": [
+          8010,
+          8200
+        ]
+      },
+      "MIDDLE": {
+        "runes": [
+          8010,
+          8200
+        ]
+      }
+    }
+  }
+}
