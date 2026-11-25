@@ -1,6 +1,8 @@
 # League of Legends Analytics
 
-League of Legends Analytics is a planned application that helps players choose item builds and runes based on their champion and the champions on both teams.
+League of Legends Analytics is a desktop app that recommends item builds and runes for your champion and lane, based on statistics from high-elo ranked games.
+
+**Status: V1 complete.** Pick a champion and a lane, and the app shows the most successful keystone, secondary rune tree, and item build for that pick.
 
 ## Project Goal
 
@@ -16,6 +18,58 @@ The first usable version will focus on:
 - Displaying the recommendations in a simple interface.
 
 The MVP will use manual champion input. Automatic champion detection is outside the initial scope.
+
+## Screenshot
+
+![Recommendation screen](docs/screenshot.png)
+
+## How to Run
+
+### Requirements
+
+- Python 3.12
+- An internet connection (champion, item, and rune names are loaded from Data Dragon at startup)
+
+### Setup
+
+```bash
+git clone https://github.com/Dyperis/League-of-Legend-Analytics.git
+cd League-of-Legend-Analytics
+python3 -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Launch the app
+
+```bash
+python src/main.py
+```
+
+The recommendation data (`data/builds.json` and `data/runes.json`) is already included, so the app runs without a Riot API key.
+
+### Rebuilding the data (optional)
+
+You only need this to collect fresh matches, for example on a new patch.
+
+1. Copy `.env.example` to `.env` and add your Riot API key:
+
+   ```
+   RIOT_API_KEY=your_riot_api_key_here
+   ```
+
+   `.env` is listed in `.gitignore`, so your key stays out of the repository. Development keys expire every 24 hours.
+
+2. From the `src/` folder, collect matches and then recompute the statistics:
+
+   ```bash
+   cd src
+   python -m collector.collect      # downloads matches into data/raw/ (slow: rate-limited, can take ~17 hours)
+   python -m analysis.buildStats    # writes data/builds.json
+   python -m analysis.runeStats     # writes data/runes.json
+   ```
+
+   The patch window is set by `START_TIME` and `END_TIME` in `src/collector/collect.py`.
 
 ## Future Plans
 
@@ -47,4 +101,4 @@ The `docs/` folder will contain:
 
 ## Development Status
 
-This project is currently in the first production version. Implementation will proceed in manageable stages: data retrieval, data processing, recommendation logic, and interface development. Each completed stage will be recorded through incremental Git commits.
+**V1 is complete.** Data retrieval, data processing, recommendation logic, and the CustomTkinter interface are all implemented. V1 recommends builds by champion and lane; recommendations based on both teams' compositions are the next step.
