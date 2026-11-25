@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 import json
+import customtkinter as ctk
+from DataDragon import lookups
 
 moduleDir = os.path.dirname(os.path.abspath(__file__))
 repoRoot = os.path.dirname(os.path.dirname(moduleDir))
@@ -12,6 +14,7 @@ with open(RUNES_PATH, encoding="utf-8") as f:
 with open(BUILD_PATH, encoding="utf-8") as f:
     item = json.load(f)
 
+#function to get data to UI
 def recommend(champ, lane):
     if champ in item["builds"] and champ in runes["runes"]:
         if lane in item["builds"][champ] and lane in runes["runes"][champ]:
@@ -20,7 +23,7 @@ def recommend(champ, lane):
     return None
 
 
-
+#Test
 if __name__ == "__main__":
     print(recommend("Riven", "TOP"))
     print(recommend("Riven", "UTILITY"))

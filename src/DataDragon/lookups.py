@@ -22,18 +22,21 @@ for tree in runeCatalog:
         for rune in slot["runes"]:
             runeNames[rune["id"]] = rune["name"]
 
+#Find Champion Name
 def findChampion(champId):
     result = champCatalog["data"].get(champId)
     if result is None:
         return champId
     return result["name"]
 
+#Find Item Name
 def findItem(itemId):
     result = itemCatalog["data"].get(str(itemId))
     if result is None:
         return str(itemId)
     return result["name"]
 
+#Find Rune Name
 def findRune(runeId):
     return runeNames.get(runeId, str(runeId))
 

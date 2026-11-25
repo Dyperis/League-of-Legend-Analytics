@@ -9,6 +9,7 @@ repoRoot = os.path.dirname(os.path.dirname(moduleDir))
 MATCH_DIR = os.path.join(repoRoot, "data", "raw", "matches")
 BUILD_PATH = os.path.join(repoRoot, "data", "builds.json")
 
+#Count each items' win and game relative to champion and lane 
 def countItemWinsStats(files):
     counts = {}
     for i in range(len(files)):
@@ -38,8 +39,8 @@ def countItemWinsStats(files):
             
     return counts
 
-
-def pickBuilds(counts, minGames, catalog): #Find the best builds for each champions relative to lane. Low pickrate build get filtered
+#Find the best builds for each champions relative to lane. Low pickrate build get filtered
+def pickBuilds(counts, minGames, catalog): 
     builds = {}
     keyList = list(counts.keys())
     for i in range(len(keyList)):
@@ -66,6 +67,7 @@ def pickBuilds(counts, minGames, catalog): #Find the best builds for each champi
             finalBuilds[champLanes].append(top6[j][1])
     return finalBuilds
 
+#Turn pickBuilds() result into a JSON file so it can be used for the app
 def toJsonFormat(finalBuilds, patch):
     buildsFile = {}
     keyList = list(finalBuilds.keys())
@@ -77,7 +79,7 @@ def toJsonFormat(finalBuilds, patch):
     return {"patch": patch, "builds": buildsFile}
 
     
-#Test
+#Test and JSON file creation
 if __name__ == "__main__":
     files = sorted(Path(MATCH_DIR).glob("*.json"))
     url = f"https://ddragon.leagueoflegends.com/cdn/{loader.getVersionString()}/data/en_US/item.json"
