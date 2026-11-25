@@ -1,4 +1,4 @@
-#This part get the latest version of league.
+#This get the latest version of league.
 import requests
 def getVersionString():
     url = "https://ddragon.leagueoflegends.com/api/versions.json"

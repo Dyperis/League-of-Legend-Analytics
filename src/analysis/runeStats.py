@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 import json
-import requests
 from DataDragon import loader
 
 
@@ -10,6 +9,7 @@ repoRoot = os.path.dirname(os.path.dirname(moduleDir))
 MATCH_DIR = os.path.join(repoRoot, "data", "raw", "matches")
 RUNES_PATH = os.path.join(repoRoot, "data", "runes.json")
 
+#Count each runes' win and game relative to champion and lane 
 def getRunesStat(files):
     count = {}
     for i in range(len(files)):
@@ -36,6 +36,7 @@ def getRunesStat(files):
                 count[key]["wins"] += 1
     return count
 
+#Find the best builds for each champions relative to lane. Low pickrate build get filtered
 def pickRunes(count, minGames):
     rune = {}
     keyList = list(count.keys())
@@ -58,6 +59,7 @@ def pickRunes(count, minGames):
         finalRune[champLanes] = (best[1],best[2])
     return finalRune
 
+#Turn pickRunes() result into Json file for the app to use
 def toJsonFormat(finalRune, patch):
     buildsFile = {}
     keyList = list(finalRune.keys())
@@ -68,7 +70,7 @@ def toJsonFormat(finalRune, patch):
         champDict[lane] = {"runes": finalRune[keyList[i]]}
     return {"patch": patch, "runes": buildsFile}
 
-#Test 
+#Test and JSON file creation
 if __name__ == "__main__":
     files = sorted(Path(MATCH_DIR).glob("*.json"))
     counts = getRunesStat(files)
