@@ -23,6 +23,12 @@ The MVP will use manual champion input. Automatic champion detection is outside 
 
 ![Recommendation screen](docs/screenshot.png)
 
+## Demo Video
+
+[![Watch the demo on YouTube](https://img.youtube.com/vi/vDUOhvzlTNI/hqdefault.jpg)](https://www.youtube.com/watch?v=vDUOhvzlTNI)
+
+[Watch the V1 demo on YouTube](https://www.youtube.com/watch?v=vDUOhvzlTNI)
+
 ## How to Run
 
 ### Requirements
