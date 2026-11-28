@@ -18,7 +18,7 @@ def countItemWinsStats(files):
                 match = json.load(file)
         except json.JSONDecodeError:
             continue
-        if match["info"]["gameDuration"] < 300:
+        if match["info"]["gameDuration"] < 300: #Skip game that are remakes 
             continue
         participants = match["info"]["participants"]
         for player in range(len(participants)):
@@ -87,10 +87,7 @@ if __name__ == "__main__":
     catalog = response.json()
     counts = countItemWinsStats(files)
     builds = pickBuilds(counts, 30, catalog)
-    print(len(builds))
-    print(builds[("Riven", "TOP")])
     output = toJsonFormat(builds, loader.getVersionString())
-    BUILD_PATH = os.path.join(repoRoot, "data", "builds.json")
     with open(BUILD_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
 

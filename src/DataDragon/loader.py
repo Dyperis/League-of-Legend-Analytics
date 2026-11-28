@@ -5,5 +5,3 @@ def getVersionString():
     versionArray = requests.get(url).json()
     version_string = versionArray[0]
     return version_string
-
-#Might add caching and timeout errors in the future

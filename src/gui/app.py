@@ -24,8 +24,6 @@ def recommend(champ, lane):
     return None
 
 
-#GUI Code
-LANES = ["TOP", "JUNGLE", "MIDDLE", "BOTTOM", "UTILITY"]
 
 #Change name in display for easier use
 LANE_LABELS = {"TOP": "Top", "JUNGLE": "Jungle", "MIDDLE": "Mid", "BOTTOM": "ADC", "UTILITY": "Support"}
@@ -71,7 +69,7 @@ class App(ctk.CTk):
             if (label == lane): 
                 self.selectedLane = key
                 self.showResults()
-                pass
+                break
         
     def showResults(self):
         if self.selectedChamp is None or self.selectedLane is None:
